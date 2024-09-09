@@ -6,7 +6,7 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo dee Formulário</h1>
+    <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -14,6 +14,11 @@
                 <label for="inome">Nome</label>
                 <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required placeholder="Digite o Nome e Sobrenome">
             </p>
+            <P>
+                <label for="isenha">Senha</label>
+                
+                <input type="password" name="senha" id="isenha" minlength="6" maxlength="10" required placeholder="Digite sua senha">
+            </P>
             <p>
                 <label for="imail">E-mail</label>
                 <input type="email" name="email" id="iemail" autocomplete="on" required placeholder="Digite seu E-mail">
